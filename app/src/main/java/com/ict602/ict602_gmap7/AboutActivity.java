@@ -13,7 +13,7 @@ import androidx.core.text.HtmlCompat;
 public class AboutActivity extends AppCompatActivity {
     Button backBtn;
     Button repoBtn;
-    String htmlText = "<a href='https://github.com/fauzirentah/BMICalculator'>https://github.com/fauzirentah/BMICalculator</a>";
+    String htmlText = "<a href='https://github.com/fauzirentah/ICT602-GMap7'>https://github.com/fauzirentah/ICT602-GMap7</a>";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,7 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     public void gotoRepo() {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/fauzirentah/BMICalculator"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/fauzirentah/ICT602-GMap7"));
         startActivity(browserIntent);
     }
 
